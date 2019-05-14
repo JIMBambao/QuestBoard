@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fPostOfGuest">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="738dp"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="4dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/board"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/txtName7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="590dp"
+        android:ems="10"
+        android:fontFamily="@font/bungee1"
+        android:inputType="textPersonName"
+        android:text="reward"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <ImageView
+        android:id="@+id/map5"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_x="142dp"
+        android:layout_y="653dp"
+        app:srcCompat="@drawable/map"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <Button
+        android:id="@+id/start4"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="662dp"
+        android:background="?android:attr/panelBackground"
+        android:fontFamily="@font/bungee1"
+        android:text="post"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <EditText
+        android:id="@+id/txtName5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="537dp"
+        android:ems="10"
+        android:fontFamily="@font/bungee1"
+        android:inputType="text"
+        android:text="duration"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="438dp"
+        android:fontFamily="@font/bungee1"
+        android:text="classification"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <EditText
+        android:id="@+id/txtName4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="384dp"
+        android:ems="10"
+        android:fontFamily="@font/bungee1"
+        android:inputType="textPersonName"
+        android:text="type"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="334dp"
+        android:fontFamily="@font/bungee1"
+        android:text="difficulty"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <EditText
+        android:id="@+id/txtName2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="270dp"
+        android:ems="10"
+        android:fontFamily="@font/bungee1"
+        android:inputType="textPersonName"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/lblAd"
+        android:layout_width="153dp"
+        android:layout_height="62dp"
+        android:layout_x="214dp"
+        android:layout_y="183dp"
+        android:fontFamily="@font/bungee1"
+        android:text="123"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/lblNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="128dp"
+        android:fontFamily="@font/bungee1"
+        android:text="09"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/lblAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="222dp"
+        android:layout_y="72dp"
+        android:fontFamily="@font/bungee1"
+        android:text="18"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/lblGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="345dp"
+        android:layout_y="71dp"
+        android:fontFamily="@font/bungee1"
+        android:text="M"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="154dp"
+        android:fontFamily="@font/bungee1"
+        android:text="address:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="104dp"
+        android:fontFamily="@font/bungee1"
+        android:text="contact number:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="265dp"
+        android:layout_y="71dp"
+        android:fontFamily="@font/bungee1"
+        android:text="Gender:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="72dp"
+        android:fontFamily="@font/bungee1"
+        android:text="age:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="69dp"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="12dp"
+        android:fontFamily="@font/bungee1"
+        android:text="guest name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <Spinner
+        android:id="@+id/diff"
+        android:layout_width="234dp"
+        android:layout_height="24dp"
+        android:layout_x="150dp"
+
+        android:layout_y="339dp"
+
+        android:background="@color/colorPrimary"
+        android:popupBackground="@color/colorAccent"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="347dp"
+        android:layout_height="64dp"
+        android:layout_x="40dp"
+        android:layout_y="463dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="479dp"
+        android:textColor="@color/colorPrimary"/>
+
+</AbsoluteLayout>

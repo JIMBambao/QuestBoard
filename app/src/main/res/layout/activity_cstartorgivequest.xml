@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cStartOrGiveQuest">
+
+    <Button
+        android:id="@+id/give"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="425dp"
+        android:background="?android:attr/panelBackground"
+        android:fontFamily="@font/bungee1"
+        android:text="G I V E   Q U E S T"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="424dp"
+        android:layout_height="258dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/qb_pixel_2"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="339dp"
+        android:background="?android:attr/panelBackground"
+        android:fontFamily="@font/bungee1"
+        android:text="S T A R T   Q U E S T"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_x="0dp"
+        android:layout_y="258dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_x="5dp"
+        android:layout_y="208dp"
+        app:srcCompat="@drawable/board"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageView
+        android:id="@+id/chest"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:layout_x="70dp"
+        android:layout_y="418dp"
+        app:srcCompat="@drawable/chest"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_x="65dp"
+        android:layout_y="327dp"
+        app:srcCompat="@drawable/map"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+</AbsoluteLayout>
