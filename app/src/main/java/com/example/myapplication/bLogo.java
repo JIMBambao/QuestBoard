@@ -61,6 +61,7 @@ public class bLogo extends AppCompatActivity {
     }
 
 
+
     private boolean checkMapServices() {
         if (isServicesOK()) {
             return isMapsEnabled();
