@@ -7,5 +7,6 @@
         <item>Hard</item>>
 
     </string-array>
-    >
+
+    <string name="google_map_api_key">AIzaSyCbzCII234wyDrmjlgS6YHJFjXNlw14tIo</string>
 </resources>

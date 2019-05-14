@@ -1,11 +1,11 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.felipecsl.gifimageview.library.GifImageView;
 
@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class aLoading extends AppCompatActivity {
+
 
     private GifImageView gifImageView;
     private ProgressBar progressBar;
@@ -28,21 +29,38 @@ public class aLoading extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.pBar);
         progressBar.setVisibility(progressBar.VISIBLE);
 
-        try{
+        try {
             InputStream inputStream = getAssets().open("tenor.gif");
             byte[] bytes = IOUtils.toByteArray(inputStream);
             gifImageView.setBytes(bytes);
             gifImageView.startAnimation();
-        }catch(IOException e){
+        } catch (IOException e) {
 
         }
 
+        startNextActivity();
+
+        /*new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                aLoading.this.startActivity(new Intent(aLoading.this, bLogo.class));
+                aLoading.this.finish();
+
+            }
+        },5000);*/
+
+    }
+
+    private void startNextActivity() {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 aLoading.this.startActivity(new Intent(aLoading.this, bLogo.class));
                 aLoading.this.finish();
+
             }
-        },5000);
+        }, 5000);
     }
+
+
 }
