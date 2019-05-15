@@ -29,7 +29,7 @@ public class jLoginStartQuest extends AppCompatActivity {
                 String pass = user.getText().toString();
 
                 if(username.equals("quest")||pass.equals("123")){
-                    Intent i = new Intent (jLoginStartQuest.this, lStartQuestMapLoggedIn.class);
+                    Intent i = new Intent (jLoginStartQuest.this, MapsActivity.class);
                     startActivity(i);
                     finish();
                 }else{
@@ -52,7 +52,7 @@ public class jLoginStartQuest extends AppCompatActivity {
                 positiveBuutton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent i = new Intent(jLoginStartQuest.this, kStartQuestMap.class);
+                        Intent i = new Intent(jLoginStartQuest.this, MapsActivity.class);
                         startActivity(i);
                     }
                 });
